@@ -6,7 +6,7 @@ from car_detection import CarDetection
 def main():
     image = 'imgs/lot2.jpg'
     coord_file = 'data/coords.yml'
-    '''
+   
     #Up to here, the code is collecting coordinates of the parking spaces
     if image is not None:
         with open(coord_file, "w+") as coords:
@@ -20,7 +20,7 @@ def main():
         carss = CarDetection(image)
         carss.detect
     
-
+    '''
     print('All Done')
 
 if __name__ == '__main__':
